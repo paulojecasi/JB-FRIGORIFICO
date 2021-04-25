@@ -1,0 +1,2236 @@
+
+input, table, textarea{
+  text-transform: uppercase;
+}
+
+table{
+  font-size: 13px; 
+}
+
+option {
+  font-family: monospace;
+  font-weight: bold; 
+  text-transform: uppercase;
+}
+
+option#option-primeira-linha{
+  background-color: #2F4F4F; 
+  color: #fff;
+  pointer-events: none;
+  touch-action: none;
+  margin-top: -7px; 
+  margin-left: -9px; 
+  margin-right: -9px; 
+}
+
+div.titulo-acesso-sistema{
+  padding: 10px; 
+  background-color: #000;
+  margin-bottom: 10px; 
+}
+
+div.titulo-acesso-sistema h1{
+  color: #fff; 
+}
+
+div.acesso-ao-sistema{ 
+  width: 100%; 
+  height: 100%; 
+
+  text-align: center;
+
+  background-color: #F5F5DC; 
+  min-height: 370px; 
+  background-image: url('http://cursophp.com/comercial_fabinho/assets/frontend/img/cac.png');
+  background-repeat: repeat; 
+  /*opacity: .1;*/
+  margin-top: 0px;
+  margin-bottom: -10px; 
+}
+
+div.btn-acesso{
+  margin-top: 45px; 
+  padding-bottom: 50px; 
+}
+
+div.btn-acesso button{
+  background-color: #191970;
+  width: 100%;
+  height: 80px;
+  border: 3px solid;
+  font-size: 22px; 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.4);
+  border-radius: 10px; 
+}
+
+div.btn-acesso button:hover{
+  background-color: #0000CD;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8), 0 6px 20px 0 rgba(0,0,0,0.8);
+  border-color: white; 
+  
+}
+
+div.cactosdev_acesso{
+  margin-top: 0px; 
+  background-color: #000; 
+  color: #fff;
+}
+
+div.cactosdev_acesso p.des-por{
+  margin-top: 20px; 
+  font-size: 15px; 
+  margin-bottom: 0px; 
+  margin-left: 30px;
+}
+
+div.cactosdev_acesso h3 {
+  margin-top: 0px; 
+  margin-bottom: 5px; 
+  font-size: 20px; 
+}
+div.cactosdev_acesso h3 img{
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  width: 40px;
+  height: 40px;
+}
+
+div.cactosdev_acesso p img.email, div.cactosdev_acesso p img.whats{
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    width: 25px;
+    height: 25px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-default{
+  background-color: #A9A9A9; 
+  color: white;
+
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.footer-bottom-area {background: #000;color: #fff; 
+  width: 100%;
+  height: 100%;
+}
+.footer-about-us span {
+  color: #e67e22;
+}
+.footer-wid-title {
+  font-family: raleway;
+  font-size: 30px;
+  font-weight: 100;color: #fff
+}
+
+.footer-about-us h2 {
+  font-weight: 200;
+}
+.footer-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.footer-menu ul li {
+    border-bottom: 1px dashed #555;
+    padding: 5px 0;
+}
+.footer-menu a {
+    display: block;
+    padding: 5px 0;color: #999
+}
+
+.footer-social a {
+  background: none repeat scroll 0 0 #e67e22;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 5px;
+  text-align: center;
+  width: 40px;border: 1px solid #e67e22;
+}
+
+.footer-social a:hover {background-color: #222;border-color: #666}
+
+.footer-social {margin-top: 20px}
+
+a {color: #e67e22}
+a:hover, a:focus {color: #17a78b}
+.footer-bottom-area {
+  background: none repeat scroll 0 0 #000;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+
+/* MINHAS ESTILIZAÇÕES */ 
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: #B0C4DE;
+}
+
+/* side-bar*/ 
+
+div.menu-vendas{
+  margin-top: -42px; 
+  text-align: left;  
+}
+div a.nav-link{
+  font-size: 22px; 
+  margin-left: 0px; 
+  color: #fff;
+
+}
+
+div a.nav-link:hover{
+ color: #FFFF00;
+}
+
+div#menulinks{
+  background-color: #000; 
+  margin-top: -37px; 
+  margin-left: 30px; 
+  margin-bottom: 5px;
+  padding: 4px; 
+  padding-top: 8px; 
+ 
+}
+
+div#menulinks a{
+  font-size: 16px; 
+  color: #00FFFF;
+  border: 2px solid;
+  border-radius: 5px; 
+  border-color: #fff; 
+  padding: 5px; 
+}
+
+div#menulinks a i{
+  font-size: 19px; 
+  color: #FFFF00;
+}
+
+div#menulinks a:hover{
+  color: #FFF;
+  background-color: #4F4F4F; 
+  text-decoration: none; 
+  /*border: 2px solid;
+  border-radius: 15px;
+  border-color: white; */
+}
+
+
+.panel-geral-vendas{
+  background-color: #C0C0C0;
+  margin-bottom: 0px; 
+  height: 505px;
+}
+
+div.panel-geral-vendas1{
+  background-color: #C0C0C0; 
+  border-right: 3px solid;
+
+}
+
+div.panel-vendas1{
+  background-color: #C0C0C0; 
+  /*margin-left: 0px; */
+  margin-bottom: -19px;  
+}
+
+div.area-vendas1 div.nomeproduto{
+  margin-top: -10px; 
+}
+div.panel-vendas2-1{
+  background-color: #F5F5DC;
+  margin-top: 0px; 
+  margin-left: -10px;
+  margin-right:-10px;
+  margin-bottom: 15px;  
+  border:2px solid; 
+  height: 383px;
+  overflow-y: scroll;
+}
+div.panel-vendas2-1 table{
+  background-color: #ADD8E6; 
+  color: #696969;
+  margin-top: -12px; 
+  font-size: 13px; 
+}
+
+div.panel-vendas2-1 table h5{
+  font-weight: bold; 
+  color: #000;
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+}
+
+div.panel-vendas2-1 table b{
+  color: blue; 
+  font-size: 15px; 
+}
+
+div.flexline, div.flexline div{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+div.flexline select{
+    width: 80%;
+}
+div.flexline input{
+    width: 70%;
+    font-size: 20px; 
+    text-align: center; 
+    font-weight: bold; 
+}
+
+div.resultado{
+  margin-top: 0px;
+}
+
+button.btn-consulta{
+  margin-top: 23px; 
+  margin-bottom: 10px; 
+  width: 130px;
+  font-size: 17px;  
+}
+
+button.btn-consulta:focus{
+  background-color: #32CD32;   
+}
+
+div.quantidade-ites input:focus{
+  background-color: #E0FFFF; 
+}
+div.nomeproduto input:focus{
+  background-color: #E0FFFF; 
+}
+
+div.picklist-prod select:focus{
+  background-color: #E0FFFF; 
+}
+
+
+button.btn-consulta img{
+  width: 15px;
+  height: 15px;
+}
+
+div.area-vendas1{
+  border-bottom: 2px solid;
+}
+
+div.area-vendas1 input, div.picklist-prod select{
+  font-size: 20px; 
+  background-color: #FFFFF0; 
+}
+
+
+div.area-vendas1 input#quantidade{
+  font-size: 23px; 
+  text-align: center; 
+
+}
+
+div.panel-geral-vendas2{
+    background-color: #C0C0C0; 
+    /*margin-top: -10px; 
+    margin-bottom: 5px; 
+    margin-left: 0px;
+    border:3px solid; */ 
+}
+
+div.panel-vendas2{
+
+}
+
+div.panel-item-escolhido{
+  margin-top: 0px; 
+}
+
+div.descricao-prod-cx{
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+
+
+div.desc-precos-compras input, input.descricao-prod-caixa {
+  background-color: #C0C0C0; 
+   color: blue;  
+   font-weight: bold; 
+   font-size: 22px; 
+   margin-bottom: -8px;
+   margin-top: 0px; 
+   border-radius: 10px; 
+   text-align: center;
+   width: 100%;
+   height: 30px; 
+   pointer-events :none;
+}
+
+input.descricao-prod-caixa{
+
+  color: blue; 
+
+}
+
+
+div.input-precos input{
+  background-color:#4F4F4F;
+  color: white;
+  font-weight: bold; 
+  font-size: 40px;
+  text-align: center; 
+  margin-top: -5px;
+  margin-bottom: 0px; 
+  border: 2px solid; 
+  border-radius: 10px; 
+  border-color: #fff;
+  width:100%; 
+  height: 50px; 
+  pointer-events :none;
+  
+}
+
+
+div.input-precost input{
+  color: red;
+  font-weight: bold; 
+  font-size: 60px;
+  text-align: center; 
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  border: 3px solid; 
+  border-radius: 10px; 
+  border-color: #A9A9A9; 
+  width:100%; 
+  height: 63px; 
+  pointer-events :none;
+}
+
+div.tela-preco-troco h1{
+  color: green;
+  font-weight: bold; 
+  font-size: 30px;
+  text-align: center; 
+  margin-bottom: 0px; 
+  border-bottom: 1px solid; 
+  border-color: #A9A9A9; 
+}
+
+div.footer-card-icon i{
+  margin-top: 3px; 
+  font-size: 15px; 
+}
+
+div#btn-venda button{
+  margin-top:25px;
+}
+
+  /* DO RODAPE*/
+div.cactosdev{
+  margin-bottom: -45px; 
+}
+div.cactosdev p.des-por{
+  margin-top: 2px; 
+  font-size: 8px; 
+  margin-bottom: 0px; 
+}
+
+div.cactosdev h3 {
+  margin-top: 0px; 
+  margin-bottom: -5px; 
+  font-size: 13px; 
+}
+div.cactosdev h3 img{
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  width: 18px;
+  height: 18px;
+}
+
+div.cactosdev p img.email, div.cactosdev p img.whats{
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    width: 13px;
+    height: 13px;
+}
+
+/* DA TELA DE ACESSO */
+
+div.cactosdev_acesso{
+  margin-top: 20px; 
+
+}
+
+div.btn-finalizar-venda{
+  margin-top: 12px; 
+  margin-bottom: 0px; 
+}
+
+div.btn-finalizar-venda button{
+  width: 100%;
+  height: 100%;
+  border: 2px solid;
+  font-size: 18px; 
+  /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+  border-radius: 50px; 
+
+  position: relative;
+  top: 0.0em;
+  transition: all 300ms ease-in-out;
+  box-shadow: 0 0.4em #000, 0 0.5em  #fff; 
+}
+
+div.btn-finalizar-venda button:active{
+  background-color: #006400; 
+  border-color: #000; 
+  top: 0.4em;
+  box-shadow: 0 0.1em #000, 0 0.2em  #fff; 
+}
+
+div.header-titulo{
+  background-color: #000; 
+ /* margin-bottom: 8px; */
+  border-bottom: 3px solid; 
+  border-color: #fff; 
+
+}
+
+div.logo-marca h3{
+  margin-top: 9px;
+  margin-bottom: 0px;
+  margin-left: 44px; 
+  font-size: 20px; 
+  color: #FFFF00;
+  border: 5px ridge;
+  border-radius: 20px 20px; 
+  border-color: #FF0000;
+}
+
+div.logo-titulo h1.desc-titulo{
+  margin-top: 10px;
+  font-size: 30px; 
+  color: #fff;
+}
+
+div.usuario-caixa{
+  color: #FF8C00 ;
+}
+
+div.usuario-caixa h4.desc-operador{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 10px; 
+  color: #fff;
+  text-align: center; 
+}
+
+div.usuario-caixa h4.desc-operador2{
+  margin-top: 5px; 
+  margin-bottom: 0px;
+  font-size: 15px; 
+  text-align: center; 
+}
+
+div.usuario-caixa h4.desc-operador3{
+  margin-top: 4px; 
+  margin-bottom: 5px;
+  font-size: 12px; 
+  color: #fff;
+  text-align: center;
+   
+}
+
+div.usuario-caixa h4.desc-operador3 a{
+  color: yellow;
+   
+}
+
+div.usuario-caixa-foto img{
+  width: 40px;
+  height: 50px;
+  border:1px solid;
+  border-color: white; 
+  border-radius: 3px;
+  margin-top: 1px; 
+}
+
+div.usuario-caixa-foto{
+  text-align: right;
+}
+
+div.picklist-prod div label{
+  margin-right:40px; 
+}
+
+.titulo-tela-tipopag{
+  margin-top: 0px; 
+  background-color: #1C1C1C;
+}
+
+.titulo-tela-tipopag div h2{
+  color: yellow; 
+  margin-left: 15px;
+}
+
+h5.valor-total-venda{
+  color: yellow; 
+  font-size: 52px; 
+  width: 100%;
+  height: 60px; 
+  text-align: left;
+  font-weight: bold;
+  color: red;
+    
+}
+
+.titulo-tela-tipopag2{
+  margin-top: 0px; 
+  background-color: #1C1C1C;
+  min-height: 450px; 
+}
+
+.titulo-tela-tipopag2 div h2{
+  color: yellow; 
+}
+
+.titulo-tela-tipopag2 div h1{
+  color: red; 
+  font-size: 60px; 
+}
+
+.titulo-tela-tipopag3{
+  margin-top: 0px; 
+  background-color: #1C1C1C;
+  min-height: 364px; 
+}
+
+.titulo-tela-tipopag3 div h2{
+  color: yellow; 
+}
+
+.titulo-tela-tipopag3 div h1{
+  color: red; 
+  font-size: 60px; 
+}
+
+.titulo-tela-tipopag4{
+  margin-top: 0px; 
+  background-color: #1C1C1C;
+  min-height: 364px; 
+}
+
+.titulo-tela-tipopag4 div h2{
+  color: yellow; 
+}
+
+.titulo-tela-tipopag4 div h1{
+  color: red; 
+  font-size: 60px; 
+}
+
+.titulo-tela-tipopag5{
+  margin-top: 0px; 
+  background-color: #1C1C1C;
+  min-height: 364px; 
+}
+
+.titulo-tela-tipopag5 div h2{
+  color: yellow; 
+}
+
+.titulo-tela-tipopag5 div h1{
+  color: red; 
+  font-size: 60px; 
+}
+
+.titulo-tela-tipopag6{
+  margin-top: 0px; 
+  background-color: #1C1C1C;
+  min-height: 364px; 
+}
+
+.titulo-tela-tipopag6 div h2{
+  color: yellow; 
+}
+
+.titulo-tela-tipopag6 div h1{
+  color: red; 
+  font-size: 60px; 
+}
+
+.titulo-tela-tipopag7{
+  margin-top: 0px; 
+  background-color: #1C1C1C;
+  min-height: 364px; 
+}
+
+.titulo-tela-tipopag7 div h2{
+  color: yellow; 
+}
+
+.titulo-tela-tipopag7 div h1{
+  color: red; 
+  font-size: 60px; 
+}
+div.panel-valores-money{
+  margin-bottom: 70px; 
+}
+
+
+div.avista, div.debito, div.credito, div.crediario{
+  margin-top: -20px; 
+  width: 70%;
+  padding: 0px; 
+}
+
+div.credito a{
+  color: blue;
+}
+
+div.avista:hover, div.debito:hover, div.credito:hover, div.crediario:hover{
+  margin-top: -20px; 
+  width: 65%;
+  opacity: 0.5; 
+
+}
+
+div.tipo-de-pagamento{
+  background-color: #1C1C1C;
+  border-top: 3px solid; 
+  border-color: white; 
+  padding-bottom: 10px;
+  min-height: 420px; 
+
+}
+
+
+div.tipo-de-pagamento h2{
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 30px; 
+}
+
+div.tipo-de-pagamento h4{
+  color: #FFFF00;
+
+}
+
+div.tipo-de-pagamento-escolha{
+  /*margin-top: -5px; */
+  /*margin-bottom: 9px; */
+  background-color: #2E8B57;
+  border-bottom:  3px solid; 
+  border-color: white; 
+  /*padding-bottom: 10px; */
+}
+
+div.tipo-de-pagamento-escolha h2{
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  padding: 10px; 
+
+}
+
+div.tipo-de-pagamento-escolha h4{
+  color: #FFFF00;
+
+}
+
+div.tipo-de-pagamento-escolha-crediario{
+
+  background-color: #4682B4;
+
+}
+
+
+div.titulo-tela-consulta-crediario{
+  background-color: #363636;
+  margin-top: -20px; 
+  margin-bottom: -7px;
+}
+
+div.titulo-tela-consulta-crediario h2{
+  font-size: 20px; 
+  color: white; 
+  padding: 5px;
+}
+
+div.link-voltar{
+  margin-top: 10px; 
+  margin-bottom: 0px; 
+  font-size: 19px;  
+}
+
+div.link-voltar-esc-pagto{
+  margin-top: 0px; 
+}
+
+h1.valor-recebido-venda input{
+  color: #fff; 
+  font-size: 50px; 
+  background-color: #1C1C1C;
+  width: 50%;
+  height: 60px; 
+  text-align: left;
+
+}
+
+h1.valor-recebido-troco input{
+  color: #FFD700; 
+  font-size: 50px; 
+  background-color: #1C1C1C;
+  width: 50%;
+  height: 60px; 
+  pointer-events :none;
+}
+
+h1.valor-recebido-troco input:disabled {
+  background: #1C1C1C;
+  font-weight: bold; 
+}
+
+div.btn-finalizar-venda-money{
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+}
+
+div.btn-link {
+  margin-top:10px; 
+  margin-bottom: 10px;
+}
+
+h4.btn-itens {
+  margin-top: 2px;
+  color: #228B22;
+  font-size: 15px;  
+}
+
+h4.btn-alterar {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -5px; 
+  color: #4169E1;
+  font-size: 15px;  
+}
+
+h4.btn-excluir {
+  margin-left: -10px; 
+  margin-top: -12px; 
+  margin-right: -25px; 
+  margin-bottom: -15px;
+  color: #FF0000;
+  font-size: 15px;  
+}
+
+div.mensagem-sistema{
+  height: 10px;
+  margin-top: 10px;
+  padding: 0px;  
+}
+
+div.mensagem-sistema div{
+  margin-top: 0px; 
+  font-size: 15px; 
+  padding: 7px; 
+
+}
+
+div.mensagem-sistema div b#av1{
+ color: blue; 
+}
+
+
+section.escolha-pagamento{
+  min-height: 250px; 
+}
+
+/* ---- ALTERAÇAO DO ITEM DA VENDA ----*/
+
+.panel-principal-altera-itens-da-venda{
+  background-color: #C0C0C0; 
+  min-height: 500px; 
+}
+
+div.altera-itens-venda-titulo h2{
+  color: black;
+  font-size: 25px;
+  margin-top: 5px; 
+}
+
+.panel-principal-altera-itens-da-venda input#codproduto_alt,
+.panel-principal-altera-itens-da-venda input#desproduto_alt,
+.panel-principal-altera-itens-da-venda input#vlpreco_alt,
+.panel-principal-altera-itens-da-venda input#valortotal_alt
+{
+  background-color: #C0C0C0; 
+  color: blue;
+  font-size: 30px; 
+  height:50px; 
+  text-align: center; 
+  pointer-events :none;
+  font-weight: bold; 
+  border: solid 1px; 
+  border-radius: 10px; 
+  
+  border-color: white; 
+  box-shadow: -2px 2px 2px 2px #8B8989;
+   
+}
+
+.input-alt-itens-venda input
+{
+  background-color: #FFFAF0; 
+  color: #999;
+  font-size: 30px; 
+  height:40px; 
+  width: 100%; 
+  text-align: center; 
+ 
+}
+
+.panel-principal-altera-itens-da-venda input#valortotal_alt
+{
+  color: blue;
+  font-size: 50px; 
+  height:60px; 
+  font-weight: bold; 
+
+
+}
+
+.panel-principal-altera-itens-da-venda input#quantidadeitens_alt:focus,
+.panel-principal-altera-itens-da-venda input#valordesconto_alt:focus,
+.panel-principal-altera-itens-da-venda input#valoracrescimo_alt:focus
+{
+  background-color: #ADD8E6; 
+  color: #000;
+}
+
+.panel-principal-altera-itens-da-venda label
+{
+  color: #2F4F4F;
+  font-size: 16px; 
+}
+
+div.panel-dados-item{
+  margin-top: -13px; 
+}
+
+div.panel-btn-aplicar-voltar{
+  margin-bottom: 20px; 
+}
+
+/* TELA CONSULTA DE CLIENTE NO CREDIARIO */
+.panel-consulta-cliente{
+  margin-top: 5px; 
+  margin-left: 0px; 
+  margin-right: 0px;
+  margin-bottom: 0px; 
+
+  border: 3px solid; 
+  border-radius: 10px; 
+}
+div.panel-top-cliente{
+  border-bottom: 1px solid; 
+  border-color: white; 
+}
+
+div.valor-venda-crediario h4{
+  margin-bottom: -10px; 
+  color: yellow; 
+
+}
+
+div.valor-venda-crediario h4 b{
+  margin-bottom: -10px; 
+  color: red; 
+  font-size: 20px;
+}
+
+
+div.cadastro-cliente-crediario h4{
+  margin-bottom: -10px; 
+  color: #00FFFF; 
+  font-size: 14px; 
+}
+
+div.cadastro-cliente-crediario h4:hover{
+  color: #fff; 
+  font-size: 15px; 
+  font-weight: bold; 
+}
+
+.panel-consulta-cliente label{
+  margin-top: 5px; 
+  color: #fff;
+}
+
+div.nomecliente input{
+  font-size: 20px;  
+}
+
+div.nomecliente input:focus{
+  background-color: #E0FFFF; 
+}
+
+div.btn-consulta-cliente{
+  text-align: right;  
+}
+
+div.btn-consulta-cliente a button.btn_buscar_cliente{
+  margin-top: -20px; 
+  align-items: right; 
+}
+
+div.btn-finalizar-venda-cliente{
+  margin-bottom: -20px; 
+}
+
+div.btn-link-cadastro{
+  margin-top: 0px; 
+  margin-bottom: 10px; 
+}
+
+div.table-cliente-divida{
+  background-color: #DCDCDC;
+  margin-top: 0px; 
+  margin-left: 0px;
+  margin-right:0px;
+  margin-bottom: 0px;  
+  border:2px solid; 
+  height: 390px;
+  overflow-y: scroll;
+}
+
+div.table-cliente-divida table{
+  margin-top: 10px;
+}
+
+td.valor-saldo-dev{
+  color: red;
+  font-weight: bold; 
+  font-size: 16px; 
+}
+
+/* TELA DEMONSTRACAO DE CREDIARIO DO CLIENTE */
+
+.panel-demostracao-cliente{
+  margin-top: 5px; 
+  margin-left: 0px; 
+  margin-right: 0px;
+
+ /* border: 3px solid;  */
+}
+.panel-demostracao-cliente div label{
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  color: #fff;
+}
+
+.panel-demostracao-cliente div input:disabled{
+  color: #4F4F4F;
+  background-color:#C0C0C0; 
+  font-size: 16px; 
+  height:21px; 
+}
+
+.panel-demostracao-cliente div input#cliente_saldoc{
+  font-size: 20px;  
+  color: red;
+  background-color: black; 
+  height:24px; 
+  text-align: center; 
+}
+
+div.panel-vendas2-2{
+  background-color: #DCDCDC;
+  margin-top: 0px; 
+  margin-left: 0px;
+  margin-right:0px;
+  margin-bottom: 0px;  
+  border:2px solid; 
+  height: 230px;
+  overflow-y: scroll;
+}
+div.panel-vendas2-2 table{
+  background-color: #DCDCDC; 
+  font-weight: bold; 
+  color: #696969;
+}
+
+div.panel-vendas2-2 table h5{
+  font-weight: bold; 
+  color: #000;
+  margin-top: -5px; 
+  margin-bottom: 0px; 
+
+}
+
+div.panel-vendas2-2 table b#aberto, #quitado, #cancelado{
+  color: red; 
+  font-size: 15px; 
+  margin-top: -10px; 
+  margin-bottom: -10px; 
+}
+
+div.panel-vendas2-2 table b#quitado{
+  color: blue;  
+}
+
+div.panel-vendas2-2 table b#cancelado{
+  color: #808080;  
+}
+
+button.btn-ver-itens, .btn-pagar-cred{
+  margin-top: -5px; 
+  margin-left: 0px;
+  margin-right: -20px; 
+  margin-bottom: -5px;  
+  height: 28px;
+    width: 130px; 
+  font-size: 12px; 
+  background-color: #008080; 
+  color: white;
+  border: 2px solid; 
+  border-color: #fff;
+}
+
+button.btn-ver-pagamentos{
+  margin-top: -5px; 
+  margin-left: 0px;
+  margin-right: -20px; 
+  margin-bottom: -5px;  
+  height: 28px;
+  width: 130px; 
+  font-size: 12px; 
+  border: 2px solid; 
+  border-color: #fff;
+}
+
+button.btn-ver-itens:hover, 
+button.btn-pagar-cred:hover, 
+button.btn-ver-pagamentos:hover{
+  background-color: #A9A9A9;
+  border: 2px solid; 
+  border-color: #000;
+}
+
+button.btn-ver-itens:focus, 
+button.btn-pagar-cred:focus,
+button.btn-ver-pagamentos:focus{
+  background-color: #fff;
+  color: #000;
+  border: 4px solid; 
+  border-color: #000;
+}
+
+button.btn-pagar-cred{
+  background-color: green; 
+}
+
+div.panel-vendas2-3{
+  background-color: #DCDCDC;
+  margin-top: 0px; 
+  margin-left: 0px;
+  margin-right:0px;
+  margin-bottom: 0px;  
+  border:2px solid; 
+  height: 200px;
+  overflow-y: scroll;
+}
+
+div.panel-vendas2-3 h4.h4-itens-da-venda{
+  background-color: #000;
+  color: #fff;
+  margin-top: -10px; 
+  padding: 3px; 
+}
+
+div.panel-vendas2-3 h4.h4-itens-da-venda b{
+  color: yellow; 
+}
+
+div.panel-vendas2-3 h4.h4-pagamento-da-venda{
+  background-color: #00008B;
+  color: #fff;
+  margin-top: -10px; 
+  padding: 3px; 
+}
+
+div.panel-vendas2-3 h4.h4-pagamento-da-venda b{
+  color: yellow; 
+}
+
+section.link-voltar-tela-demonstracao{
+  margin-top: 10px;
+}
+
+section.link-voltar-tela-demonstracao a{
+  color: #fff;
+  font-size: 16px; 
+}
+
+section.link-voltar-tela-demonstracao a:hover{
+  color: yellow;
+}
+
+section.link-voltar-tela-demonstracao a i {
+  color: yellow;
+  font-size: 25px; 
+}
+
+/*
+table.tabela-venda-consulta{
+  margin-top: -18px;
+}
+*/
+
+table.tabela-itens-venda-consulta{
+  margin-top: 0px;
+}
+
+td#recebimento-cancelado{
+  background-color: red;
+  color: #fff; 
+  font-weight: bold; 
+  width: 50px;
+}
+
+td#recebimento-normal{
+  color: blue; 
+  font-weight: bold; 
+}
+
+
+
+/* TELA CADASTRO E MANUTENCAO DE CLIENTE */
+.panel2-consulta-cliente{
+  margin-top: 5px; 
+  margin-left: 0px; 
+  margin-right: 0px;
+
+ /* border: 3px solid;  */
+}
+.panel2-consulta-cliente div label{
+  margin-top: 2px;
+  margin-bottom: 0px; 
+  color: #fff;
+}
+
+.panel2-consulta-cliente div input:disabled{
+  color: #4F4F4F;
+  background-color:#C0C0C0; 
+}
+
+.panel2-consulta-cliente div.resultado_cli{
+  margin-top: -25px; 
+}
+
+div.cliente_venda input{
+  font-size: 20px;  
+  margin-bottom: -30px; 
+}
+
+div.cliente_venda input#cliente_saldo{
+  font-size: 23px;  
+  color: red;
+  background-color: black; 
+  text-align: center; 
+}
+
+div.cliente_venda input:focus{
+  background-color: #E0FFFF; 
+}
+
+div.cadastro-cliente-aberto h4{
+  margin-top: 30px; 
+  margin-bottom: 0px; 
+  color: yellow; 
+  font-weight: bold; 
+  font-size: 16px; 
+}
+
+div.cadastro-cliente-aberto h4:hover{
+  color: #fff; 
+  font-size: 16px; 
+  font-weight: bold; 
+}
+
+div.picklist-cliente select{
+  font-size: 18px; 
+  margin-top: -5px; 
+}
+
+div.picklist-cliente select option b{
+  font-size: 58px; 
+}
+
+div#lista-cli-aberto{
+  margin-top: 5px; 
+  text-align: center;
+  margin-bottom: 5px; 
+}
+
+div#lista-cli-aberto a{
+  color: #fff;
+  font-size: 16px; 
+}
+
+
+/* CADASTRO DE CLIENTES TELA INICIAL */
+
+.panel2-cadastro-cliente{
+  margin-top: 5px; 
+  margin-left: 0px; 
+  margin-right: 0px;
+
+ /* border: 3px solid;  */
+}
+.panel2-cadastro-cliente div label{
+  margin-top: 10px;
+  margin-bottom: 0px; 
+  color: #fff;
+}
+
+.panel2-cadastro-cliente div input:disabled{
+  color: #4F4F4F;
+  background-color:#C0C0C0; 
+}
+
+.panel2-cadastro-cliente div.resultado_cli{
+  margin-top: -25px; 
+}
+
+div.tela-manutencao-cli{
+  background-color: #708090;
+  min-height: 470px; 
+}
+
+div.tela-manutencao-cli input{
+  text-transform: uppercase; 
+}
+
+div.btn-add-cliente button{
+  background-color: #191970;  
+}
+
+div.btn-alterar-cliente button{
+  background-color: #0000FF;  
+}
+
+div.btn-add-cliente button:hover, div.btn-alterar-cliente button:hover{
+  background-color: #4169E1;
+  border-color: blue; 
+} 
+
+div.link-voltar-tela-inicio{
+  margin-top: 25px;
+}
+
+div.link-voltar-tela-inicio a{
+  color: #fff;
+}
+
+div.link-voltar-tela-inicio a:hover{
+  color: yellow;
+}
+
+div.link-voltar-tela-inicio a i {
+  color: yellow;
+  font-size: 25px; 
+}
+
+div.btn-link-casdatrar-cliente{
+  margin-top: 50px; 
+  margin-bottom: 10px; 
+}
+
+div.resultado-cliente{
+  height: 220px;  
+  margin-top: -27px; 
+}
+
+.panel-consulta-cliente div.resultado_cli{
+  margin-top: 0px; 
+}
+
+
+/* CONSULTA VENDAS DO CLIENTE CREDIARIO */
+
+
+div.btn-link-consulta-cred{
+  margin-top: 0px; 
+  margin-bottom: 10px;
+}
+
+
+/* TELA DE PAGAMENTO CREDIARIO */
+
+.tela-pagamento-crediario{
+  margin-top: 0px; 
+  background-color: #4F4F4F;
+  min-height: 448px; 
+}
+
+
+.tela-pagamento-crediario div h2{
+  color: yellow; 
+}
+
+.tela-pagamento-crediario div.campo-pag h3{
+  color: yellow; 
+  font-size: 20px; 
+}
+
+.tela-pagamento-crediario div h1{
+  color: #fff; 
+  font-size: 40px; 
+}
+
+div.panel-recebidos-cred{
+  margin-top: 0px; 
+}
+
+div.panel-recebidos-cred2{
+  background-color: #1C1C1C; 
+  margin-top: 15px; 
+  border: 2px solid;
+  border-radius: 10px; 
+  padding-bottom:15px; 
+}
+
+h1.valor-recebido-venda-cred input{
+  color: #fff; 
+  font-size: 35px; 
+  background-color: #1C1C1C;
+  width: 100%;
+  height: 50px; 
+  text-align: left;
+    
+}
+
+h1.valor-juros-venda-cred input{
+  color: #fff; 
+  font-size: 28px; 
+  background-color: #1C1C1C;
+  width: 100%;
+  height: 40px; 
+  text-align: left;
+  margin-top: -10px;
+}
+
+h1.valor-desconto-venda-cred input{
+  color: #fff; 
+  font-size: 28px; 
+  background-color: #1C1C1C;
+  width: 100%;
+  height: 40px; 
+  text-align: left;
+  margin-top: -10px;
+}
+
+div.tipo-pagamento-cred select{
+  background-color: #1C1C1C; 
+  margin-top: 10px; 
+  height: 40px;
+  color: white; 
+  font-size: 20px; 
+}
+
+h1.valor-saldo-atual-cred input{
+  color: red; 
+  font-size: 40px; 
+  background-color: #1C1C1C;
+  width: 100%;
+  height: 50px; 
+  pointer-events :none;
+  margin-top: -10px;
+}
+
+h1.valor-recebido-troco-cred input{
+  color: #FFD700; 
+  font-size: 40px; 
+  background-color: #1C1C1C;
+  width: 100%;
+  height: 50px; 
+  pointer-events :none;
+  margin-top: -10px;
+}
+
+h1.valor-recebido-troco-cred label{
+  color: #FFD700; 
+  font-size: 15px; 
+}
+
+h1.valor-recebido-troco-cred input:disabled, h1.valor-saldo-atual-cred input:disabled{
+  background: #1C1C1C;
+  font-weight: bold; 
+}
+
+div.dados-venda{
+  margin-top: -10px; 
+  margin-bottom: -5px;
+  color: #fff;
+  border-bottom: 1px solid; 
+  border-color: #fff;
+}
+
+div.dados-venda b{
+  color: #00BFFF;
+  font-size: 25px; 
+
+}
+
+div.dados-venda b#valor-venda-cred-pag{
+  color: yellow;
+}
+
+section.btn-retorno-pag-cred{
+  margin-top: -10px; 
+}
+
+div.total-pagto-cre{
+  margin-left: -10px; 
+  margin-bottom: 0px; 
+}
+
+h1.valor-total-venda-cred input{
+  color: yellow; 
+  font-size: 50px; 
+  width: 100%;
+  height: 60px; 
+  text-align: left;
+  font-weight: bold;
+    
+}
+
+h1.valor-total-venda-cred input:disabled{
+  background-color: #1C1C1C; 
+}
+
+div.resultado-cliente-venda-cred{
+  height: 180px;  
+  margin-top: -27px; 
+}
+
+/* TELA PAGAMENTO CARTAO DEBITO */
+
+section.btn-retorno-pag-deb{
+  margin-top: 0px;
+  margin-bottom: 0px; 
+}
+
+div.tipo-de-pagamento-debito{
+  background-color: yellow; 
+  opacity: .6
+}
+
+div.tipo-de-pagamento-debito h2{
+  background-color: #FFFF00;
+  color: #4F4F4F;
+}
+
+div.card-debit{
+  border: 3px solid;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  border-radius: 10px; 
+}
+
+div.card-debit h3{
+  font-size: 18px; 
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+div.card-debit h6 {
+  margin-top: -18px; 
+}
+
+div.card-debit h6 b{
+  color: yellow;
+  font-size: 21px;
+}
+
+div.card-debit img{
+  margin-top: -50px;
+  margin-bottom: -20px;
+}
+
+div.card-debit img:hover{
+  opacity: .6
+}
+
+/* TELA PAGAMENTO CARTAO CRÉDITO  */
+
+div.tipo-de-pagamento-credito{
+  background-color: #87CEFA; 
+  opacity: .7
+}
+
+div.tipo-de-pagamento-credito h2{
+  color: #4F4F4F;
+}
+
+
+/* TELA MOVIMENTO DO CAIXA */
+div.titulo-tela-consulta-movimento-cx{
+  background-color: #191970;
+  margin-top: -20px; 
+  margin-bottom: -7px;
+}
+
+div.titulo-tela-consulta-movimento-cx h2{
+  font-size: 20px; 
+  color: white; 
+  padding: 5px;
+}
+
+div.titulo-tela-consulta-movimento-cx h2 b{
+  font-size: 22px; 
+  color: yellow; 
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+
+
+div.tela-movimento-caixa{
+  background-color: #708090;
+  border-bottom: 3px solid; 
+  border-color: #fff; 
+}
+
+div.tela-movimento-caixa input{
+  text-transform: uppercase; 
+}
+
+div#ident-caixa-mov{
+  margin-top: 0px;
+  color: #fff;
+}
+
+
+section#dt-movimento-caixa{
+  margin-top: 10px; 
+}
+
+section div.campo-titulo-mov-cx h4{
+  font-size: 24px; 
+  margin-top: 0px;
+  color: #fff;
+  text-align: center;
+}
+
+section div.campo-data-movcx label{
+  color: #fff;
+}
+section div.campo-data-movcx input{
+  font-size: 21px; 
+  padding: 0px;
+  text-align: center;
+}
+
+section div.campo-data-movcx input:hover{
+  background-color: #C0C0C0;
+  color: blue;
+}
+
+section div.campo-data-movcx input:focus{
+  background-color: #F0F8FF;
+  color: blue;
+}
+
+div.tela-movimento-caixa-2{
+  background-color: #708090;
+  height: 420px;
+
+}
+
+div.tela-movimento-caixa-2 input{
+  text-transform: uppercase; 
+}
+
+div.btn-dados-mov-caixa{
+  margin-top: 0px; 
+}
+
+div.btn-dados-mov-caixa button{
+  background-color: green;  
+  padding: 0px; 
+}
+
+div.btn-dados-mov-caixa button:hover, div.btn-alterar-cliente button:hover{
+  background-color: #32CD32;
+  border-color: green; 
+} 
+
+.receb-caixa-mov{
+  margin-top: 2px; 
+  border: 2px solid; 
+  border-radius: 10px; 
+  border-color: #DCDCDC; 
+  color: yellow;
+  padding: 0px; 
+  padding-top: 5px;
+  background-color: #4F4F4F;
+}
+
+.receb-caixa-mov div.sec-recebi{
+  padding-top: 0px; 
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  border-top: 1px solid; 
+  border-color: #696969; 
+}
+
+
+.receb-caixa-mov h4{
+  padding-top: 0px; 
+  margin-top: 0px; 
+  margin-bottom: 10px; 
+  color: white;
+
+}
+
+.receb-caixa-mov div.titulo-pag h3{
+  font-size: 18px; 
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.receb-caixa-mov div.valor-pag h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+div.sec-entrada{
+  color: #00FF7F;
+}
+
+div.sec-a-receber{
+  color: #F4A460;
+}
+
+div.sec-saida{
+  color: red;
+}
+
+div.sec-disponivel div h3{
+  margin-top: 0px;
+  color: #fff;
+  font-weight: bold; 
+  font-size: 23px; 
+}
+
+div.sec-disponivel label{
+  margin-top: 0px;
+  color: yellow;
+  font-weight: bold; 
+  font-size: 11px; 
+}
+
+
+div.btn-link-mov-cx{
+  margin-top: -10px; 
+}
+
+div.btn-ver-mov-caixa input{
+  margin-top: 9px; 
+  min-width: 5px;
+  min-height: 5px;
+  transform: scale(2);
+  border-radius: 20px; 
+  
+}
+
+div.table-mov-caixa{
+  background-color: #FAF0E6; 
+  height: 410px;
+  overflow-y: scroll;
+}
+
+.venda-mov-cancelado td{
+  color: red; 
+}
+
+
+div.btn-dados-mov-retirada{
+  margin-top: 20px; 
+}
+
+div.btn-dados-mov-retirada button{
+  color: #fff;
+  background-color: red;  
+  padding: 0px; 
+  width: 100%;
+  height: 100%;
+  border: 3px solid;
+  font-size: 15px; 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 15px; 
+  border-color: #fff; 
+}
+
+div.btn-dados-mov-retirada button:hover{
+  color: red;
+  background-color: #fff;
+  border-color: red; 
+} 
+
+
+
+/* TELA CANCELAMENTO DE MOVIMENTO DO CAIXA */
+div.btn-link-mov-cx-cancel{
+  margin-top: -10px; 
+}
+
+table b#normal{
+  color: blue;
+}
+
+table b#cancel{
+  background-color: red; 
+  color: #fff;
+}
+
+/* TELA COSULTA DE VENDA */
+
+div.titulo-tela-consulta-movimento-cx-venda{
+  background-color: #4682B4;
+  margin-top: -20px; 
+  margin-bottom: -7px;
+}
+
+div.titulo-tela-consulta-movimento-cx-venda h2{
+  font-size: 20px; 
+  color: white; 
+  padding: 5px;
+}
+
+div.titulo-tela-consulta-movimento-cx-venda h2 b{
+  font-size: 22px; 
+  color: yellow; 
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+
+div.table-mov-caixa-venda{
+  background-color: #F5F5DC; 
+  height: 350px;
+  overflow-y: scroll;
+}
+
+div.tela-movimento-caixa-venda{
+  background-color: #2F4F4F;
+  border-bottom: 3px solid; 
+  border-color: #fff; 
+}
+
+div.tela-movimento-caixa-venda input{
+  text-transform: uppercase; 
+}
+
+div#ident-caixa-mov-venda{
+  margin-top: 0px;
+  color: #fff;
+}
+
+section.panel-consulta-venda{
+  margin-top: 0px; 
+}
+
+div.venda-cx-consulta{
+  margin-top: -8px; 
+  margin-bottom: 5px;
+}
+
+div.venda-cx-consulta h3{
+  color: #fff;
+}
+
+div.venda-cx-consulta h3 b{
+  color: yellow;
+}
+
+h3.itens-venda-cx-mov{
+  margin-top: 5px; 
+}
+
+b#cancell{
+  color: red;
+}
+
+/* TELA RECEBIMENTO DE VENDAS EXTERNAS  */ 
+
+
+div.tipo-de-pagamento-externa{
+  background-color: #BC8F8F; 
+  opacity: .9; 
+}
+
+div.tipo-de-pagamento-externa h2{
+  color: #fff;
+}
+
+div.pagto-pix{
+  background-color: blue; 
+  opacity: .9;
+}
+
+div.venda-externa{
+  border: 3px solid;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 10px; 
+}
+
+div.venda-externa h3{
+  font-size: 20px; 
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+div.venda-externa h6 {
+  margin-top: 0px; 
+}
+
+div.venda-externa h6 b{
+  color: yellow;
+  font-size: 21px;
+}
+
+div.venda-externa img{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+div.venda-externa img:hover{
+  opacity: .6
+}
+
+div.btn-finaliza-externa{
+  align-items: center; 
+}
+
+div.btn-finaliza-externa a button{
+  width: 30%; 
+  align-items: center; 
+  margin-top: 50px; 
+  margin-bottom: 70px; 
+}
+
+/* TELA RETIRADA DE MOVIMENTOS DO CAIXA */
+div.titulo-tela-retirada-movimento-cx{
+  background-color: red;
+  margin-top: -20px; 
+  margin-bottom: -7px;
+  opacity: .5;
+}
+
+div.titulo-tela-retirada-movimento-cx h2{
+  font-size: 20px; 
+  color: white; 
+  padding: 5px;
+}
+
+div.titulo-tela-retirada-movimento-cx h2 b{
+  font-size: 22px; 
+  color: yellow; 
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+
+
+div.tela-retirada-caixa{
+  background-color: #708090;
+  border-bottom: 3px solid; 
+  border-color: #fff; 
+}
+
+div.panel-valores-retirada{
+  background-color: #B0C4DE;
+  border: 1px solid; 
+  border-color: #fff; 
+}
+
+
+div.panel-valores-retirada h3{
+  color: blue; 
+}
+
+h1.valor-retirada-disponivel{
+  color: #008080; 
+  font-weight: bold; 
+}
+
+div.tela-retirada-caixa input{
+  text-transform: uppercase; 
+}
+
+div#ident-caixa-mov{
+  margin-top: 0px;
+  color: #fff;
+}
+
+section#dt-movimento-caixa-retirada{
+  margin-top: 10px; 
+
+}
+
+section div.campo-titulo-mov-cx-retirada h4{
+  font-size: 24px; 
+  margin-top: 0px;
+  color: #fff;
+  text-align: center;
+}
+
+section div.campo-data-movcx-retirada label{
+  color: #fff;
+}
+section div.campo-data-movcx-retirada input{
+  font-size: 21px; 
+  padding: 0px;
+  text-align: center;
+}
+
+section div.campo-data-movcx-retirada input:hover{
+  background-color: #C0C0C0;
+  color: blue;
+}
+
+section div.campo-data-movcx-retirada input:focus{
+  background-color: #F0F8FF;
+  color: blue;
+}
+
+
+h1.valor-retirada-caixa input{
+  color: #000; 
+  font-size: 25px; 
+  background-color: #fff;
+  height: 40px; 
+  text-align: left;
+
+}
+
+select#id_retirada_mov{
+  background-color: #fff; 
+  margin-top: 10px; 
+  height: 40px;
+  color: #000; 
+  font-size: 20px; 
+}
+
+textarea#descricao_ret{
+  background-color: #fff; 
+  margin-top: 10px; 
+  color:#000; 
+  font-size: 16px;
+  text-align: left; 
+}
+
+
+h1.valor-saldo-caixa input{
+  color: yellow; 
+  font-size: 30px; 
+  background-color: #000;
+  height: 45px; 
+  pointer-events :none;
+}
+
+h1.valor-retirada-caixa input:focus, textarea#descricao_ret:focus, select#id_retirada_mov:focus {
+  background-color: #B0E0E6;
+}
+
+div.btn-finalizar-retirada{
+  margin-top: 10px; 
+  margin-bottom: 20px;
+  align-items:  center; 
+}
+
+div.btn-finalizar-retirada button{  
+  text-align: center; 
+  width: 400px; 
+}
+
+div.retvalor{
+  margin-top: -10px;
+}
+
+div.retsaldo{
+  margin-top: -10px;
+}
+
+
+/* TELA MOVIMENTO DE PRODUTOS DO CAIXA */
+div.titulo-tela-consulta-movimento-cx-pro{
+  background-color: #8B4513;
+  margin-top: -20px; 
+  margin-bottom: -7px;
+}
+
+div.titulo-tela-consulta-movimento-cx-pro h2{
+  font-size: 20px; 
+  color: white; 
+  padding: 5px;
+}
+
+div.titulo-tela-consulta-movimento-cx-pro h2 b{
+  font-size: 22px; 
+  color: yellow; 
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+
+div.tela-movimento-caixa-pro{
+  background-color: #708090;
+  border-bottom: 3px solid; 
+  border-color: #fff; 
+}
+
+div.tela-movimento-caixa-pro input{
+  text-transform: uppercase; 
+}
+
+}
+
+section#dt-movimento-caixa-pro{
+  margin-top: 10px; 
+}
+
+section div.campo-titulo-mov-cx-pro h4{
+  font-size: 24px; 
+  margin-top: 0px;
+  color: #fff;
+  text-align: center;
+}
+
+section div.campo-data-movcx-pro label{
+  color: #fff;
+}
+section div.campo-data-movcx-pro input{
+  font-size: 21px; 
+  padding: 0px;
+  text-align: center;
+}
+
+section div.campo-data-movcx-pro input:hover{
+  background-color: #C0C0C0;
+  color: blue;
+}
+
+section div.campo-data-movcx-pro input:focus{
+  background-color: #F0F8FF;
+  color: blue;
+}
+
+div.table-mov-caixa-pro{
+  background-color: #FAF0E6; 
+  height: 410px;
+  overflow-y: scroll;
+}
+
+div.tela-movimento-caixa-2 input{
+  text-transform: uppercase; 
+}
+
+div.btn-dados-mov-prod{
+  margin-top: 0px; 
+}
+
+div.btn-dados-mov-prod button{
+  background-color: green;  
+  padding: 0px; 
+}
+
+div.btn-dados-mov-prod button:hover, div.btn-alterar-cliente button:hover{
+  background-color: #32CD32;
+  border-color: green; 
+} 
+
+div.mens-sem-movimento h1{
+  color: red;
+}
+
+div.resultado-produto{
+  height: 130px;  
+  margin-top: -27px; 
+}
+
+div.resultado-produto-venda{
+  height: 150px;  
+  margin-top: -27px; 
+}
+
+::-moz-placeholder {
+  text-transform: none;  
+}
+
+b.vl-nota-list{
+  color: #A9A9A9;
+}
+
+b#vl-fat-pos{
+  color: green;
+}
+
+b#vl-fat-neg{
+  color: red;
+}
+
+b.atalho-front{
+  color: #fff; 
+  font-size: 17px;
+  background-color: #000; 
+  border-radius: 15px; 
+  padding: 4px;  
+}
+
+a button#mostrar-clientes-aberto{
+  background-color: blue; 
+  border: 2px solid;
+  border-radius: 8px;  
+}
+
+a button#mostrar-clientes-aberto:hover { 
+  color: #A9A9A9; 
+  border-color: #A9A9A9;  
+}
+
+th b#tot-sld-ab{
+  color: blue;
+  font-size: 18px; 
+}
+
+div.select-item-venda select{
+  font-size: 15px;  
+}
+
+
